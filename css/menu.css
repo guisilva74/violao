@@ -1,0 +1,77 @@
+body{color: rgb(180, 222, 180);
+    background-color: rgb(146, 168, 146);
+    font-size: 1em;
+    font-family: arial;
+    
+    }
+    
+    .cabecalho{
+        color: black;
+        font-size: 2em;
+        background-color: white;
+        text-align: center;
+        width: 75%;
+        margin-top: 75px;
+        transition: 2s;
+    }
+    
+    
+    
+    #lobo{
+    
+        padding: 20px;
+        background-color: blue;
+        border: 8px brown dotted;
+        border-radius: 50px;
+    }
+    
+    
+    .cabecalho:hover{
+    
+        color:green;
+        background-color: yellow;
+        width: 100%;
+        transition: 2s;
+    }
+    
+    #lobo:hover{
+        padding: 20px;
+        background-color: green;
+        border: 8px brown dotted;
+        border-radius: 150px;
+        filter: grayscale(100%);
+        transition: 1s;
+    }
+    
+    .centrar{
+        text-align: center;
+    }
+    a:link{
+        text-decoration: none;
+        color: #00780c;
+        background-color: #d0f5ec;
+        display: inline-block;
+        width: 200px;
+        transition: 1s;
+        
+    
+    }
+    .nav{
+        color:  black;
+        color: 
+      
+    }
+    a:hover{
+    
+        background-color: #850332;
+        color: white;
+        transition: 1s;
+        padding-left: 10px;
+    }
+    a:active{
+        transform: rotate(-180deg);
+        transition: 1s;
+    }
+    a:visited{
+        font-family: sans-serif;
+    }
